@@ -1,0 +1,34 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Audit entry microservice for EKS Saga demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aws-samples/eks-saga-audit.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "microservices",
+    "saga",
+    "amazon-eks",
+    "aws-sqs",
+    "aws-rds",
+    "nodejs"
+  ],
+  "author": "Nagesh Subrahmanyam",
+  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/aws-samples/eks-saga-audit/issues"
+  },
+  "homepage": "https://github.com/aws-samples/eks-saga-audit#readme",
+  "dependencies": {
+    "aws-sdk": "^2.814.0",
+    "moment-timezone": "^0.5.32",
+    "mysql2": "^2.2.5",
+    "winston": "^3.3.3"
+  }
+}
