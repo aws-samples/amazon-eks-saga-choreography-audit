@@ -5,7 +5,7 @@ metadata:
   namespace: eks-saga
 data:
   TZ: "timeZone"
-  REGION: "ap-south-1"
+  REGION: "regionId"
   DBHOST: "dbEndpoint"
   DBPORT: "3306"
   DBUSER: "pod_user"
